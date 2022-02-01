@@ -102,7 +102,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family:'Zen Kurenaido', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -115,13 +115,39 @@ body {
   background-color: darkgrey;
 }
 
+header,
+footer {
+    background-color: #222;
+    height: 80px;
+     width: 100%;
+     color: white;
+}
+
+main {
+  background-color: #ccc;
+  height: 250px;
+  width: 100%;
+}
+
+header,
+footer,
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Saira', sans-serif
+}
+
+h2 {
+    width: 90%;
+}
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
   background-color: darkgrey;
-  height: 250px;
+  height: 200px;
   width: 32%;
   display: flex;
   justify-content: center;
@@ -130,9 +156,10 @@ body {
 .div-2 {
     border-left: 1px dotted black;
     border-right: 1px dotted black;
-    padding-left: 20px;
 }
-
+p{
+    width: 90%;
+}
 
 
 
